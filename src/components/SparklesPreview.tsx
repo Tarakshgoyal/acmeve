@@ -1,0 +1,46 @@
+"use client";
+import React from "react";
+import { SparklesCore } from "@/components/ui/sparkles";
+
+export function SparklesPreview() {
+  return (
+    <div className="h-[44rem] relative w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <div className="w-full absolute inset-0 h-screen">
+        <SparklesCore
+          id="tsparticlesfullpage"
+          background="transparent"
+          minSize={0.6}
+          maxSize={1.4}
+          particleDensity={100}
+          className="w-full h-full"
+          particleColor="#FFFFFF"
+        />
+      </div>
+      <div className="h-full md:h-[90rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
+        <div className="p-4 relative z-10 w-full text-center">
+            <div className="flex flex-col items-center justify-center overflow-hidden rounded-md">
+                  <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
+                    Odyssey
+                  </h1>
+                  <div className="w-[40rem] h-10 relative">
+                    {/* Gradients */}
+                    <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
+                    <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
+                    <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
+                    <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
+            
+                    {/* Core component */}
+                    
+                    {/* Radial Gradient to prevent sharp edges */}
+                    <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+                  </div>
+            
+            <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
+                A chain of 7 events organised by UPES ACM ACM-W Student chapter 
+            </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  );
+}
