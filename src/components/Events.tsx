@@ -39,7 +39,7 @@ export function BentoGridDemo() {
           description={item.description}
           header={item.header}
           icon={item.icon}
-          className={i === 3 || i === 6 ? "md:col-span-2 w-215 h-75" : "w-107 h-75"}
+          className={i === 3 || i === 6 ? "md:col-span-2 md:w-215 md:h-75" : "md:w-107 md:h-75"}
         />
       ))}
     </BentoGrid>
