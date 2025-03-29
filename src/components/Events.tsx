@@ -57,44 +57,44 @@ const items = [
   {
     title: "The Dawn of Innovation",
     description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: <ItemImage src="/p1.jpg" href="/"/>,
+    header: <ItemImage src="/p1.jpg" href="https://konfhub.com/ccdicpc"/>,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Digital Revolution",
     description: "Dive into the transformative power of technology.",
-    header: <ItemImage src="/p2.jpg" href="/"/>,
+    header: <ItemImage src="/p2.jpg" href="https://konfhub.com/bqfuntech"/>,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Art of Design",
     description: "Discover the beauty of thoughtful and functional design.",
-    header: <ItemImage src="/p3.jpg" href="/"/>,
+    header: <ItemImage src="/p3.jpg" href="https://konfhub.com/thttreasurehunt"/>,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Power of Communication",
     description:
       "Understand the impact of effective communication in our lives.",
-    header: <ItemImage src="/p4.jpg" href="/"/>,
+    header: <ItemImage src="/p4.jpg" href="https://konfhub.com/prdell"/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Pursuit of Knowledge",
     description: "Join the quest for understanding and enlightenment.",
-    header: <ItemImage src="/p5.jpg" href="/"/>,
+    header: <ItemImage src="/p5.jpg" href="https://konfhub.com/ssphotography"/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Joy of Creation",
     description: "Experience the thrill of bringing ideas to life.",
-    header: <ItemImage src="/p6.jpg" href="/"/>,
+    header: <ItemImage src="/p6.jpg" href="https://konfhub.com/dspignite"/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "The Spirit of Adventure",
     description: "Embark on exciting journeys and thrilling discoveries.",
-    header: <ItemImage src="/p7.jpg" href="/"/>,
+    header: <ItemImage src="/p7.jpg" href="https://konfhub.com/dzdbgmi"/>,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
 ];

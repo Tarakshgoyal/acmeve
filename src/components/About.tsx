@@ -18,7 +18,7 @@ const About = () => {
                     <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                   </div>
             
-            <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
+            <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 text-center max-w-lg mx-auto">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus libero nisi debitis vero nihil ab, commodi, quisquam, corporis rerum veniam cupiditate animi doloribus illo adipisci odio vitae exercitationem architecto recusandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea voluptate quia quas fugiat animi aut! Hic sit nostrum doloribus sint mollitia iste autem beatae vero, impedit animi magni vitae aliquam.
             </p>
         </div>
