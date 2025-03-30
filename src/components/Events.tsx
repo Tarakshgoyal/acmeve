@@ -1,14 +1,5 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
-import {
-  IconArrowWaveRightUp,
-  IconBoxAlignRightFilled,
-  IconBoxAlignTopLeft,
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconTableColumn,
-} from "@tabler/icons-react";
 import Image from "next/image";
 
 export function BentoGridDemo() {
@@ -38,7 +29,6 @@ export function BentoGridDemo() {
           title={item.title}
           description={item.description}
           header={item.header}
-          icon={item.icon}
           className={item.className}
         />
       ))}
@@ -56,23 +46,20 @@ function ItemImage({src,href}: {src:string,href:string}) {
 const items = [
   {
     title: "ProtoRush",
-    description: "dell-ivering the Next Breakthrough",
+    description: "DELL-ivering the Next Breakthrough",
     header: <ItemImage src="/p1.jpg" href="https://konfhub.com/prdell"/>,
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
     className: "md:row-span-2 md:w-85",
   },
   {
     title: "ShutterSaga",
     description: "Snap the Frame, Own the Game",
     header: <ItemImage src="/p2.jpg" href="https://konfhub.com/ssphotography"/>,
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
     title: "ByteQuest",
     description: "Binge on Tech and Trivia",
     header: <ItemImage src="/p3.jpg" href="https://konfhub.com/bqfuntech"/>,
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
@@ -80,28 +67,24 @@ const items = [
     description:
       "Lost clues, Hidden truths, One quest",
     header: <ItemImage src="/p4.jpg" href="https://konfhub.com/thttreasurehunt"/>,
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     className: "md:row-span-2 md:w-85 md:h-202",
   },
   {
-    title: "dropzone domination",
-    description: "Land, loot , conquer",
+    title: "Dropzone Domination",
+    description: "Land, Loot , Conquer",
     header: <ItemImage src="/p5.jpg" href="https://konfhub.com/dzdbgmi"/>,
-    icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
     className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
-    title: "Code cruscade",
+    title: "Code Cruscade",
     description: "Break the logic , crack the code",
     header: <ItemImage src="/p6.jpg" href="https://konfhub.com/ccdicpc"/>,
-    icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
     className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
-    title: "dsp",
+    title: "DSP",
     description: "Hear from the ACM speaker",
     header: <ItemImage src="/p7.jpg" href="https://konfhub.com/dspignite"/>,
-    icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     className: "md:row-span-1 md:w-85 md:h-100 ",
   },
 ];
