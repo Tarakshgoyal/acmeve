@@ -3,7 +3,7 @@ const About = () => {
     <main className="bg-black">
         <div className="flex flex-col items-center justify-center overflow-hidden rounded-md">
                   <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
-                    What it is about?
+                    What is it about?
                   </h1>
                   <div className="w-[40rem] h-10 relative">
                     {/* Gradients */}
@@ -19,7 +19,7 @@ const About = () => {
                   </div>
             
             <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 text-center max-w-lg mx-auto">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus libero nisi debitis vero nihil ab, commodi, quisquam, corporis rerum veniam cupiditate animi doloribus illo adipisci odio vitae exercitationem architecto recusandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea voluptate quia quas fugiat animi aut! Hic sit nostrum doloribus sint mollitia iste autem beatae vero, impedit animi magni vitae aliquam.
+              Just like how Odysseus braved great challenges during his journey home, Odyssey brings the students an expansive and exciting set of great learning and growth opportunities with a set of 7 distinct competitive and cooperative events. This fest is about skill and knowledge acquisition as well as exposition to real world challenge and you will always leave knowing more and understanding better. Join us at ...
             </p>
         </div>
     </main>

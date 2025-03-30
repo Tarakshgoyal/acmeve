@@ -42,7 +42,7 @@ export function SparklesPreview() {
                   </div>
             
             <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-                A chain of 7 events organised by UPES ACM ACM-W Student chapter 
+            Seven Events, Infinite Possibilities — Welcome to Odessey! 
             </p>
         </div>
       </div>

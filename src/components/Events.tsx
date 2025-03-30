@@ -31,7 +31,7 @@ export function BentoGridDemo() {
                     <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                   </div>
         </div>
-    <BentoGrid className="max-w-7xl max-h-5xl mx-auto">
+    <BentoGrid className="max-w-5xl mx-auto md:auto-rows-[24.5rem]">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -39,7 +39,7 @@ export function BentoGridDemo() {
           description={item.description}
           header={item.header}
           icon={item.icon}
-          className={i === 3 || i === 6 ? "md:col-span-2 md:w-215 md:h-75" : "md:w-107 md:h-75"}
+          className={item.className}
         />
       ))}
     </BentoGrid>
@@ -55,46 +55,53 @@ function ItemImage({src,href}: {src:string,href:string}) {
 }
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: <ItemImage src="/p1.jpg" href="https://konfhub.com/ccdicpc"/>,
+    title: "ProtoRush",
+    description: "dell-ivering the Next Breakthrough",
+    header: <ItemImage src="/p1.jpg" href="https://konfhub.com/prdell"/>,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    className: "md:row-span-2 md:w-85",
   },
   {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
-    header: <ItemImage src="/p2.jpg" href="https://konfhub.com/bqfuntech"/>,
+    title: "ShutterSaga",
+    description: "Snap the Frame, Own the Game",
+    header: <ItemImage src="/p2.jpg" href="https://konfhub.com/ssphotography"/>,
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
-    title: "The Art of Design",
-    description: "Discover the beauty of thoughtful and functional design.",
-    header: <ItemImage src="/p3.jpg" href="https://konfhub.com/thttreasurehunt"/>,
+    title: "ByteQuest",
+    description: "Binge on Tech and Trivia",
+    header: <ItemImage src="/p3.jpg" href="https://konfhub.com/bqfuntech"/>,
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
-    title: "The Power of Communication",
+    title: "The Horcrux Hunt",
     description:
-      "Understand the impact of effective communication in our lives.",
-    header: <ItemImage src="/p4.jpg" href="https://konfhub.com/prdell"/>,
+      "Lost clues, Hidden truths, One quest",
+    header: <ItemImage src="/p4.jpg" href="https://konfhub.com/thttreasurehunt"/>,
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    className: "md:row-span-2 md:w-85 md:h-202",
   },
   {
-    title: "The Pursuit of Knowledge",
-    description: "Join the quest for understanding and enlightenment.",
-    header: <ItemImage src="/p5.jpg" href="https://konfhub.com/ssphotography"/>,
+    title: "dropzone domination",
+    description: "Land, loot , conquer",
+    header: <ItemImage src="/p5.jpg" href="https://konfhub.com/dzdbgmi"/>,
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
+    className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
-    title: "The Joy of Creation",
-    description: "Experience the thrill of bringing ideas to life.",
-    header: <ItemImage src="/p6.jpg" href="https://konfhub.com/dspignite"/>,
+    title: "Code cruscade",
+    description: "Break the logic , crack the code",
+    header: <ItemImage src="/p6.jpg" href="https://konfhub.com/ccdicpc"/>,
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
+    className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
-    title: "The Spirit of Adventure",
-    description: "Embark on exciting journeys and thrilling discoveries.",
-    header: <ItemImage src="/p7.jpg" href="https://konfhub.com/dzdbgmi"/>,
+    title: "dsp",
+    description: "Hear from the ACM speaker",
+    header: <ItemImage src="/p7.jpg" href="https://konfhub.com/dspignite"/>,
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    className: "md:row-span-1 md:w-85 md:h-100 ",
   },
 ];
