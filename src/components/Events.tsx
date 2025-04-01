@@ -6,7 +6,7 @@ export function BentoGridDemo() {
   return (
     <div className="flex flex-col gap-10 bg-black max-w-8xl mx-auto mc-10">
         <div className="flex flex-col items-center justify-center overflow-hidden rounded-md">
-                  <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
+                  <h1 className="md:text-7xl md:mt-6 text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
                     Our Events
                   </h1>
                   <div className="w-[40rem] h-10 relative">
@@ -71,13 +71,13 @@ const items = [
   },
   {
     title: "Dropzone Domination",
-    description: "Land, Loot , Conquer",
+    description: "Land, Loot, Conquer",
     header: <ItemImage src="/p5.webp" href="https://konfhub.com/dzdbgmi"/>,
     className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
     title: "Code Crusade",
-    description: "Break the logic , crack the code",
+    description: "Break the logic, crack the code",
     header: <ItemImage src="/p6.png" href="https://konfhub.com/ccdicpc"/>,
     className: "md:row-span-1 md:w-85 md:h-100",
   },

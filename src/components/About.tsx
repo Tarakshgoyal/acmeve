@@ -1,8 +1,8 @@
 const About = () => {
   return (
-    <main className="bg-black">
-        <div className="flex flex-col items-center justify-center overflow-hidden rounded-md">
-                  <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
+    <main className="bg-black"  >
+        <div className="flex flex-col items-center justify-center overflow-hidden  rounded-md">
+                  <h1 className="md:text-7xl md:mt-6 font-boldonse text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
                     What is it about?
                   </h1>
                   <div className="w-[40rem] h-10 relative">
@@ -15,7 +15,7 @@ const About = () => {
                     {/* Core component */}
                     
                     {/* Radial Gradient to prevent sharp edges */}
-                    <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+                    <div className="absolute  inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                   </div>
             
             <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 text-center max-w-lg mx-auto">
