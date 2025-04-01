@@ -6,7 +6,7 @@ export function BentoGridDemo() {
   return (
     <div className="flex flex-col gap-10 bg-black max-w-8xl mx-auto mc-10">
         <div className="flex flex-col items-center justify-center overflow-hidden rounded-md">
-                  <h1 className="md:text-7xl mt-6 text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
+                  <h1 className="md:text-7xl mt-8 text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
                     Our Events
                   </h1>
                   <div className="w-[40rem] h-10 relative">
