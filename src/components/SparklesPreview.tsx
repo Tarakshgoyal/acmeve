@@ -26,7 +26,7 @@ export function SparklesPreview() {
         <div className="p-4 relative z-10 w-full text-center">
             <div className="flex flex-col items-center justify-center overflow-hidden rounded-md">
                   <h1 className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
-                    <Image src={"/ODYSSEY.png"} width={400} height={100} alt={"logo"}/>
+                    <Image src={"/ODYSSEY.png"} width={500} height={100} alt={"logo"}/>
                   </h1>
                   <div className="w-[40rem] h-10 relative">
                     {/* Gradients */}
