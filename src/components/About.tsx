@@ -5,7 +5,7 @@ const About = () => {
                   <h1 className="md:text-7xl mt-8 font-boldonse text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
                     What is it about?
                   </h1>
-                  <div className="w-[40rem] h-10 relative">
+                  <div className="w-[40rem] mt-5 h-10 relative">
                     {/* Gradients */}
                     <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
                     <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />

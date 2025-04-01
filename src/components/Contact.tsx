@@ -35,7 +35,7 @@ export function SparklesPrevieww() {
       </div>
 
       {/* Conveners Section */}
-      <div className="text-2xl font-semibold mt-10 mb-6 text-center text-white">
+      <div className="text-2xl font-sans font-semibold mt-10 mb-6 text-center text-white">
         Our Conveners
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-70 text-center">
@@ -45,10 +45,10 @@ export function SparklesPrevieww() {
           { name: "Tanay", phone: "+91 7070170217" },
         ].map((convener, index) => (
           <div key={index} className="flex flex-col items-center bg-gray-900 p-4 rounded-lg w-full max-w-xs">
-            <h1 className="text-lg font-medium text-white">{convener.name}</h1>
+            <h1 className="text-lg font-sans font-medium text-white">{convener.name}</h1>
             <div className="flex items-center gap-2 mt-2">
               <Phone className="h-6 w-6 text-white" />
-              <h1 className="text-white">{convener.phone}</h1>
+              <h1 className="text-white font-sans">{convener.phone}</h1>
             </div>
           </div>
         ))}
@@ -57,7 +57,7 @@ export function SparklesPrevieww() {
       {/* Copyright Section */}
       <div className="flex flex-col sm:flex-row justify-center items-center text-center gap-2 mt-20 px-4">
         <Copyright className="h-6 w-6 text-white" />
-        <h1 className="text-sm text-white">
+        <h1 className="text-sm font-sans text-white">
           Copyright 2025 All Rights Reserved by UPES ACM and ACM-W Student
           Chapter
         </h1>
