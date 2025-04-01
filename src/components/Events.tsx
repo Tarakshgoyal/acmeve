@@ -72,13 +72,13 @@ const items = [
   {
     title: "Dropzone Domination",
     description: "Land, Loot , Conquer",
-    header: <ItemImage src="/p5.jpg" href="https://konfhub.com/dzdbgmi"/>,
+    header: <ItemImage src="/p5.webp" href="https://konfhub.com/dzdbgmi"/>,
     className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
-    title: "Code Cruscade",
+    title: "Code Crusade",
     description: "Break the logic , crack the code",
-    header: <ItemImage src="/p6.jpg" href="https://konfhub.com/ccdicpc"/>,
+    header: <ItemImage src="/p6.png" href="https://konfhub.com/ccdicpc"/>,
     className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
