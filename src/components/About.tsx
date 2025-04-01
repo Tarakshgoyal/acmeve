@@ -2,7 +2,7 @@ const About = () => {
   return (
     <main className="bg-black"  >
         <div className="flex flex-col items-center justify-center overflow-hidden  rounded-md">
-                  <h1 className="md:text-7xl md:mt-6 font-boldonse text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
+                  <h1 className="md:text-7xl mt-6 font-boldonse text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
                     What is it about?
                   </h1>
                   <div className="w-[40rem] h-10 relative">
