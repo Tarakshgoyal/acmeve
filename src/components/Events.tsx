@@ -22,7 +22,7 @@ export function BentoGridDemo() {
                     <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                   </div>
         </div>
-    <BentoGrid className="max-w-5xl mx-auto md:auto-rows-[24.5rem]">
+    <BentoGrid className="max-w-6xl mx-auto md:auto-rows-[24.5rem]">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -39,7 +39,7 @@ export function BentoGridDemo() {
 function ItemImage({src,href}: {src:string,href:string}) {
     return (
       <a href={href} className="flex flex-1 w-full h-full min-h-[7rem] rounded-xl overflow-hidden">
-        <Image className="flex flex-1 w-full h-full min-h-[7rem] rounded-xl object-cover" width={700} height={250}  src={src ?? ""} alt="img" />
+        <Image className="flex flex-1 w-full h-full min-h-[7rem] rounded-xl overflow-hidden" width={700} height={250}  src={src ?? ""} alt="img" />
         </a>
     )
 }
@@ -53,7 +53,7 @@ const items = [
   {
     title: "ShutterSaga",
     description: "Snap the Frame, Own the Game",
-    header: <ItemImage src="/p2.jpg" href="https://konfhub.com/ssphotography"/>,
+    header: <ItemImage src="/p2.png" href="https://konfhub.com/ssphotography"/>,
     className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
@@ -66,13 +66,13 @@ const items = [
     title: "The Horcrux Hunt",
     description:
       "Lost clues, Hidden truths, One quest",
-    header: <ItemImage src="/p4.jpg" href="https://konfhub.com/thttreasurehunt"/>,
+    header: <ItemImage src="/p4.png" href="https://konfhub.com/thttreasurehunt"/>,
     className: "md:row-span-2 md:w-85 md:h-202",
   },
   {
     title: "Dropzone Domination",
     description: "Land, Loot, Conquer",
-    header: <ItemImage src="/p5.webp" href="https://konfhub.com/dzdbgmi"/>,
+    header: <ItemImage src="/p5.png" href="https://konfhub.com/dzdbgmi"/>,
     className: "md:row-span-1 md:w-85 md:h-100",
   },
   {
@@ -84,7 +84,7 @@ const items = [
   {
     title: "DSP",
     description: "Hear from the ACM speaker",
-    header: <ItemImage src="/p7.jpg" href="https://konfhub.com/dspignite"/>,
+    header: <ItemImage src="/p7.png" href="https://konfhub.com/dspignite"/>,
     className: "md:row-span-1 md:w-85 md:h-100 ",
   },
 ];
