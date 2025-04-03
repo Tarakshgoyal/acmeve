@@ -47,44 +47,44 @@ const items = [
   {
     title: "ProtoRush",
     description: "DELL-ivering the Next Breakthrough",
-    header: <ItemImage src="/p1.jpg" href="https://konfhub.com/prdell"/>,
-    className: "md:row-span-2 md:w-85",
+    header: <ItemImage src="/p1.png" href="https://konfhub.com/prdell"/>,
+    className: "md:row-span-2 md:w-95",
   },
   {
     title: "ShutterSaga",
     description: "Snap the Frame, Own the Game",
     header: <ItemImage src="/p2.png" href="https://konfhub.com/ssphotography"/>,
-    className: "md:row-span-1 md:w-85 md:h-100",
+    className: "md:row-span-1 md:w-95 md:h-100",
   },
   {
     title: "ByteQuest",
     description: "Binge on Tech and Trivia",
-    header: <ItemImage src="/p3.jpg" href="https://konfhub.com/bqfuntech"/>,
-    className: "md:row-span-1 md:w-85 md:h-100",
+    header: <ItemImage src="/p3.png" href="https://konfhub.com/bqfuntech"/>,
+    className: "md:row-span-1 md:w-95 md:h-100",
   },
   {
     title: "The Horcrux Hunt",
     description:
       "Lost clues, Hidden truths, One quest",
     header: <ItemImage src="/p4.png" href="https://konfhub.com/thttreasurehunt"/>,
-    className: "md:row-span-2 md:w-85 md:h-202",
+    className: "md:row-span-2 md:w-95 md:h-202",
   },
   {
     title: "Dropzone Domination",
     description: "Land, Loot, Conquer",
     header: <ItemImage src="/p5.png" href="https://konfhub.com/dzdbgmi"/>,
-    className: "md:row-span-1 md:w-85 md:h-100",
+    className: "md:row-span-1 md:w-95 md:h-100",
   },
   {
     title: "Code Crusade",
     description: "Break the logic, crack the code",
     header: <ItemImage src="/p6.png" href="https://konfhub.com/ccdicpc"/>,
-    className: "md:row-span-1 md:w-85 md:h-100",
+    className: "md:row-span-1 md:w-95 md:h-100",
   },
   {
     title: "DSP",
     description: "Hear from the ACM speaker",
     header: <ItemImage src="/p7.png" href="https://konfhub.com/dspignite"/>,
-    className: "md:row-span-1 md:w-85 md:h-100 ",
+    className: "md:row-span-1 md:w-95 md:h-100 ",
   },
 ];
