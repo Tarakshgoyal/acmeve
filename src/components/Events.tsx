@@ -22,7 +22,7 @@ export function BentoGridDemo() {
                     <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                   </div>
         </div>
-    <BentoGrid className="max-w-6xl mx-auto md:auto-rows-[24.5rem]">
+    <BentoGrid className="max-w-7xl mx-auto md:auto-rows-[26.5rem]">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -48,43 +48,43 @@ const items = [
     title: "ProtoRush",
     description: "DELL-ivering the Next Breakthrough",
     header: <ItemImage src="/p1.png" href="https://konfhub.com/prdell"/>,
-    className: "md:row-span-2 md:w-95",
+    className: "md:row-span-2 md:w-105 md:h-218",
   },
   {
     title: "ShutterSaga",
     description: "Snap the Frame, Own the Game",
     header: <ItemImage src="/p2.png" href="https://konfhub.com/ssphotography"/>,
-    className: "md:row-span-1 md:w-95 md:h-100",
+    className: "md:row-span-1 md:w-105 md:h-120",
   },
   {
     title: "ByteQuest",
     description: "Binge on Tech and Trivia",
     header: <ItemImage src="/p3.png" href="https://konfhub.com/bqfuntech"/>,
-    className: "md:row-span-1 md:w-95 md:h-100",
+    className: "md:row-span-1 md:w-105 md:h-110",
   },
   {
     title: "The Horcrux Hunt",
     description:
       "Lost clues, Hidden truths, One quest",
     header: <ItemImage src="/p4.png" href="https://konfhub.com/thttreasurehunt"/>,
-    className: "md:row-span-2 md:w-95 md:h-202",
+    className: "md:row-span-2 md:mt-12 md:w-105 md:h-212",
   },
   {
     title: "Dropzone Domination",
     description: "Land, Loot, Conquer",
     header: <ItemImage src="/p5.png" href="https://konfhub.com/dzdbgmi"/>,
-    className: "md:row-span-1 md:w-95 md:h-100",
+    className: "md:row-span-1 md:mt-2 md:w-105 md:h-110",
   },
   {
     title: "Code Crusade",
     description: "Break the logic, crack the code",
     header: <ItemImage src="/p6.png" href="https://konfhub.com/ccdicpc"/>,
-    className: "md:row-span-1 md:w-95 md:h-100",
+    className: "md:row-span-1 md:w-105 md:h-114",
   },
   {
     title: "DSP",
     description: "Hear from the ACM speaker",
     header: <ItemImage src="/p7.png" href="https://konfhub.com/dspignite"/>,
-    className: "md:row-span-1 md:w-95 md:h-100 ",
+    className: "md:row-span-1 md:mt-4 md:w-105 md:h-110 ",
   },
 ];
