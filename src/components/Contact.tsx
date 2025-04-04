@@ -6,7 +6,7 @@ import { Phone, Copyright } from "lucide-react";
 export function SparklesPrevieww() {
   return (
     <>
-    <div className="h-auto w-full bg-black flex flex-col items-center justify-center md:mt-20 overflow-hidden rounded-md py-10 px-4">
+    <div className="h-auto w-full bg-black flex flex-col items-center justify-center md:mt-0 overflow-hidden rounded-md py-10 px-4">
       {/* Title */}
       <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center text-white relative z-20">
         Reach Out to Us
